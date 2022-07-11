@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/login_CSS.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-background">
+        <div class="login-box">
+            <div class="title">
+                <span style="color: greenyellow;">KY</span>
+                <span>융합발전소</span>
+            </div>
+           <form action="view/main.html" method="POST">
+               <input type="text" name="id" id="id" class="id" placeholder="id" required>
+               <input type="password" name="passwd" id="passwd" class="passwd"placeholder="password" onclink="enterkey()" required>
+               <button type="submit" class='login-btn'>로그인</button>
+           </form>
+        </div>
+    </div>
+    <script src="/src/script/login_script.js"></script>
+</body>
+</html>
