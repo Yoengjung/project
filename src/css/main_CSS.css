@@ -98,6 +98,3 @@ main .menu_check {
     cursor: pointer;
 }
 
-main .menu_check:checked {
-    font-size:30px;
-}
