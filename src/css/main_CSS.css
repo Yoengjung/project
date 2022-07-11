@@ -2,15 +2,26 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Do Hyeon', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
-
 .side_nav {
+    float: left;
     background-color: antiquewhite;
     width: 200px;
     height: 100vh;
+    position: relative;
 }
 
+.side_nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
 .ky_pp_logo img {
+    position: relative;
+    top: 5px;
     width: 200px;
 }
 
@@ -27,6 +38,23 @@ body {
     text-align: center;
 }
 
+.side_nav .logout_icon {
+    display: block;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* 메뉴 아이콘 */
+
+.side_nav .menu_box ul li a span {
+    display: block;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
 .side_nav .menu_box ul {
     padding: 0px;
 }
@@ -37,13 +65,39 @@ body {
 
 .side_nav .menu_box ul li a {
     text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
-.side_nav .menu_box ul li a span {
-    color: black;
+.side_nav .menu_box ul li a span:nth-child(1) {
+    margin-top: 45px;
 }
 
+.side_nav .menu_box ul li a .reservation_icon {
+    margin-top: 5px;
+}
+
+.side_nav .menu_box ul li a .declaration_icon {
+    margin-top: 6px;
+}
+
+.side_nav .menu_box ul li a .notice_board_icon {
+    margin-top: 6px;
+}
+
+/* main */
 main {
-
+    position: absolute;
     left: 200px;
+}
+
+main .menu_check {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+main .menu_check:checked {
+    font-size:30px;
 }

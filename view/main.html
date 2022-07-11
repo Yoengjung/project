@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Libre+Franklin:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
 
@@ -24,32 +28,39 @@
         <span id="userNumber" name="userNumber">userNumber</span>
         <br>
         <span id="userName" name="userName">userName</span>
-
+        <!--로그아웃-->
+        <a href="http://">
+            <span class="material-symbols-outlined logout_icon">logout</span>
+        </a>
         <nav class="menu_box">
             <ul>
                 <li>
                     <a href="http://">
+                        <i class="material-symbols-outlined reservation_icon">check_circle</i>
                         <span>예약</span>
                     </a>
                 </li>
                 <li>
                     <a href="http://">
+                        <i class="material-symbols-outlined declaration_icon">sms_failed</i>
                         <span>신고</span>
                     </a>
                 </li>
                 <li>
                     <a href="http://">
+                        <i class="material-symbols-outlined notice_board_icon">forum</i>
                         <span>게시판</span>
                     </a>
                 </li>
             </ul>
         </nav>
     </div>
-
+    </div>
     <main>
-        <h1>main</h1>
-        <h2>asdf</h2>
+        <i class="material-symbols-outlined menu_check" onclick="menu_check_onclick_fcn()">menu</i>
     </main>
+
+    <script src="/src/script/main_script.js"></script>
 </body>
 
 </html>
