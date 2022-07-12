@@ -98,7 +98,6 @@ main {
     position: absolute;
     left: 200px;
     height: 100vh;
-    width: 100vw;
 }
 
 main .menu_check {
@@ -116,7 +115,7 @@ main .menu_check {
 
 #table_floor_plan {
     position: absolute;
-    top: 15%;
+    top: 105px;
     left: 20px;
     z-index : -2;
     width: 1200px;
@@ -127,7 +126,233 @@ main .menu_check {
     top: 17px;
     position: absolute;
     font-size: 30px;
-    left: 40%;
-    transform: translateX(-50%);
+    left: 475px;
+    width: 300px;
+}
+
+
+/* room */
+.table_room button {
+    width: 40px;
+    height: 34px;
+    bottom: 15px;
+    position: absolute;
+}
+
+.manager_room {
+    background-color: aquamarine;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 162px;
+    height: 158px;
+    font-size: 40px;
+    left: 36px;
+    top: 121px;
+}
+
+.manager_room span {
+    position: relative;
+    top: 35%;
+    left: 34px;
+}
+
+.table_room .room_1_reservation {
+    left: 38%;
+}
+
+.table_room .room_down_reservation {
+    left: 38%;
+}
+
+.room_1 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 166px;
+    height: 158px;
+    font-size: 30px;
+    left: 202px;
+    top: 121px;
+}
+
+.room_1 span {
+    font-size: 50px;
+    position: relative;
+    top: 29%;
+    left: 44%;
+}
+
+.room_2 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 158px;
+    height: 155px;
+    font-size: 30px;
+    left: 207px;
+    top: 416px;
+}
+
+.room_2 span {
+    font-size: 50px;
+    position: relative;
+    top: 29%;
+    left: 44%;
+}
+
+
+.room_3 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 158px;
+    font-size: 30px;
+    left: 371px;
+    top: 121px;
+}
+
+.room_3 span {
+    font-size: 50px;
+    position: absolute;
+    top: 29%;
+    left: 44%;
+}
+
+.room_4 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 155px;
+    font-size: 30px;
+    left: 369px;
+    top: 416px;
+}
+
+.room_4 span {
+    font-size: 50px;
+    position: relative;
+    top: 29%;
+    left: 44%;
+}
+
+.room_5 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 164px;
+    height: 158px;
+    font-size: 30px;
+    left: 539px;
+    top: 121px;
+}
+
+.room_5 span {
+    font-size: 50px;
+    position: absolute;
+    top: 29%;
+    left: 44%;
+}
+
+.room_6 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 155px;
+    font-size: 30px;
+    left: 538px;
+    top: 416px;
+}
+
+.room_6 span {
+    font-size: 50px;
+    position: relative;
+    top: 29%;
+    left: 44%;
+}
+
+.room_7 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 164px;
+    height: 158px;
+    font-size: 30px;
+    left: 706px;
+    top: 121px;
+}
+
+.room_7 span {
+    font-size: 50px;
+    position: absolute;
+    top: 29%;
+    left: 44%;
+}
+
+.room_8 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 155px;
+    font-size: 30px;
+    left: 706px;
+    top: 416px;
+}
+
+.room_8 span {
+    font-size: 50px;
+    position: relative;
+    top: 29%;
+    left: 44%;
+}
+
+.room_9 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 164px;
+    height: 158px;
+    font-size: 30px;
+    left: 873px;
+    top: 121px;
+}
+
+.room_9 span {
+    font-size: 50px;
+    position: absolute;
+    top: 29%;
+    left: 44%;
+}
+
+.room_10 {
+    background-color: aquamarine;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    height: 155px;
+    font-size: 30px;
+    left: 873px;
+    top: 416px;
+}
+
+.room_10 span {
+    font-size: 50px;
+    position: relative;
+    top: 29%;
+    left: 37%;
 }
 
